@@ -1,0 +1,42 @@
+ <h2>guest information</h2>
+ <div class="container-fluid">
+    <form  [formGroup]="guestDetails" (ngSubmit)="savedata()">
+        <div formArrayName="guestArr">
+            <div fxLayout="row" *ngFor="let item of guestArr.controls;let i=index">
+                <ng-container [formGroupName]="i">
+<div fxFlex="50%">
+    <mat-form-field appearance="fill">
+        <mat-label>Guest Name</mat-label>
+        <input matInput formControlName="custName">
+      </mat-form-field>
+      <div>
+        
+        <mat-radio-group aria-label="Select an option" formControlName="gender">
+            <mat-radio-button value="male">male</mat-radio-button>
+            <mat-radio-button value="female">Female</mat-radio-button>
+            <mat-radio-button value="other">other</mat-radio-button>
+
+          </mat-radio-group>
+    </div>
+</div>
+<div fxFlex="50%">
+    <mat-form-field appearance="fill">
+        <mat-label>Age</mat-label>
+        <input matInput formControlName="age">
+      </mat-form-field>
+</div>
+<div fxLayout="row">
+    <button mat-fab color ="primary" >
+    <mat-icon (click)="addGuest()" *ngIf="(guestArr.controls.length -1)==i">add_circle</mat-icon>
+</button>
+<button mat-fab color="primary" aria-label="Example icon button with a delete icon">
+    <mat-icon (click)="removeGuest(i)">delete</mat-icon>
+  </button>
+ </div>
+                </ng-container>
+            </div>
+        </div>
+        <button mat-button matStepperPrevious type="submit">save</button>
+    </form>
+ </div>
+

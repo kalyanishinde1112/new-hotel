@@ -1,0 +1,65 @@
+<!-- <button mat-raised-button (click)="isEditable = !isEditable">
+    {{!isEditable ? 'Enable edit mode' : 'Disable edit mode'}}
+  </button> -->
+  
+   
+  <mat-stepper [linear]="false"  #stepper>
+    <mat-step [stepControl]="parentForm" >
+      <form [formGroup]="parentForm">
+        <ng-template matStepLabel>Search Hotel</ng-template>
+        <app-search-hotel></app-search-hotel>
+       
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="parentForm ">
+      <form [formGroup]="parentForm ">
+        <ng-template matStepLabel>Choose Hotel</ng-template>
+        
+        <app-choose-hotel></app-choose-hotel>
+      </form>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel>Choose Room</ng-template>
+      <app-choose-room></app-choose-room>
+      <!-- <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button (click)="stepper.reset()">Reset</button>
+      </div> -->
+    </mat-step>
+    <mat-step [stepControl]="parentForm "  >
+      <form [formGroup]="parentForm ">
+        <ng-template matStepLabel>Personal Information</ng-template>
+       
+         <app-personal-information></app-personal-information>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="parentForm "  >
+      <form [formGroup]="parentForm ">
+        <ng-template matStepLabel>Guest Information Information</ng-template>
+       
+        <app-guest-information></app-guest-information>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="parentForm "  >
+      <form [formGroup]="parentForm ">
+        <ng-template matStepLabel>Payment Details</ng-template>
+       <app-payment-details [stepper]="stepper"></app-payment-details>
+        
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="parentForm "  >
+      <form [formGroup]="parentForm ">
+        <ng-template matStepLabel>Finish Booking</ng-template>
+       
+        <app-finish-booking></app-finish-booking>
+        <button mat-button (click)="bookHotel()">Book Hotel</button>
+        <div class="text-success">
+          <span>Hotel booked Successfully..........</span>
+        </div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button mat-raised-button color="primary" routerLink="/all-booking">All Bookings</button>
+
+      </form>
+    </mat-step>
+  </mat-stepper>
+  

@@ -1,0 +1,49 @@
+<mat-form-field>
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
+  </mat-form-field>
+  
+  <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <!-- edit -->
+    <ng-container matColumnDef="select">
+        <th mat-header-cell *matHeaderCellDef> action </th>
+        <td mat-cell *matCellDef="let element"><a (click)="openDialogue(element)">Edit</a></td>
+      </ng-container>
+    <!-- Position Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element">{{element.personalInfo.name}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="checkInDate">
+      <th mat-header-cell *matHeaderCellDef>check in date</th>
+      <td mat-cell *matCellDef="let element"> {{element.searchHotel.checkInDate}} </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="checkOutDate">
+      <th mat-header-cell *matHeaderCellDef> check Out date</th>
+      <td mat-cell *matCellDef="let element"> {{element.searchHotel.checkOutDate}}</td>
+    </ng-container>
+  
+    <!-- mobile -->
+    <ng-container matColumnDef="mobileNo">
+      <th mat-header-cell *matHeaderCellDef> Mobile No </th>
+      <td mat-cell *matCellDef="let element"> {{element.personalInfo.mobileNo}} </td>
+    </ng-container>
+    <!-- payment status -->
+    <ng-container matColumnDef="paymentStatus">
+        <th mat-header-cell *matHeaderCellDef> Payment Status </th>
+        <td mat-cell *matCellDef="let element"> {{element.paymentnfo.paymentStatus}} </td>
+      </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  
+    <!-- Row shown when there is no matching data. -->
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
+    </tr>
+  </table>
+  

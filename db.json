@@ -1,0 +1,3592 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "fileData": [
+    {
+      "id": 1
+    }
+  ],
+  "userDetails": [
+    {
+      "email": "test@gmail.com",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "countries": [],
+  "cities": [
+    {
+      "cityName": "karachi",
+      "state": "pakistan",
+      "pincode": "30494892",
+      "id": 15
+    },
+    {
+      "cityName": "Abu-Dabi",
+      "state": "bSKNOIJ",
+      "pincode": "23215",
+      "id": 19
+    },
+    {
+      "cityName": "mumbai",
+      "state": "maharashtra",
+      "pincode": "6576",
+      "id": 20
+    },
+    {
+      "cityName": "nashik",
+      "state": "maharashtra",
+      "pincode": "6876897",
+      "id": 21
+    }
+  ],
+  "productList": [
+    {
+      "cityName": "ddd",
+      "state": "dddd",
+      "id": 1
+    },
+    {
+      "cityName": "sss",
+      "state": "sss",
+      "id": 2
+    },
+    {
+      "cityName": "mumabi",
+      "state": "maharashtara",
+      "id": 3
+    }
+  ],
+  "hotel-booking": [
+    {
+      "firstCtrl": "",
+      "searchHotel": {
+        "city": "",
+        "checkInDate": "",
+        "checkOutDate": "",
+        "adult": "1",
+        "children": "1"
+      },
+      "personalInfo": {
+        "name": "",
+        "country": "",
+        "dob": "",
+        "mobileNo": "",
+        "gender": ""
+      },
+      "guestDetails": {
+        "totalGuest": "",
+        "guestArr": [
+          {
+            "custName": "",
+            "age": "",
+            "gender": ""
+          }
+        ]
+      },
+      "paymentnfo": {
+        "nameOntheCard": "",
+        "debitCradNo": "",
+        "exprationYear": "",
+        "expiryMonth": "",
+        "securityCode": "",
+        "dob": "",
+        "paymentStatus": ""
+      },
+      "id": 1
+    },
+    {
+      "firstCtrl": "",
+      "searchHotel": {
+        "city": "",
+        "checkInDate": "2023-04-04T18:30:00.000Z",
+        "checkOutDate": "2023-04-05T18:30:00.000Z",
+        "adult": "1",
+        "children": "1"
+      },
+      "personalInfo": {
+        "name": "akshay",
+        "country": "Us",
+        "dob": "2023-04-05T18:30:00.000Z",
+        "mobileNo": "764873647",
+        "gender": "male"
+      },
+      "guestDetails": {
+        "totalGuest": "",
+        "guestArr": [
+          {
+            "custName": "shaa",
+            "age": "2",
+            "gender": "male"
+          }
+        ]
+      },
+      "paymentnfo": {
+        "nameOntheCard": "akshay",
+        "debitCradNo": "2143124fg14",
+        "exprationYear": "",
+        "expiryMonth": "",
+        "securityCode": "2132",
+        "dob": "2023-04-10T18:30:00.000Z",
+        "paymentStatus": "paid"
+      },
+      "id": 2
+    },
+    {
+      "firstCtrl": "",
+      "searchHotel": {
+        "city": "",
+        "checkInDate": "2023-04-18T18:30:00.000Z",
+        "checkOutDate": "2024-05-12T18:30:00.000Z",
+        "adult": "1",
+        "children": "1"
+      },
+      "personalInfo": {
+        "name": "kalyani",
+        "country": "Ind",
+        "dob": "2023-04-30T18:30:00.000Z",
+        "mobileNo": "897989080",
+        "gender": "female"
+      },
+      "guestDetails": {
+        "totalGuest": "",
+        "guestArr": [
+          {
+            "custName": "sam",
+            "age": "23",
+            "gender": "female"
+          }
+        ]
+      },
+      "paymentnfo": {
+        "nameOntheCard": "kalyani",
+        "debitCradNo": "981378973hh",
+        "exprationYear": "",
+        "expiryMonth": "",
+        "securityCode": "9839",
+        "dob": "2023-04-11T18:30:00.000Z",
+        "paymentStatus": "unpaid"
+      },
+      "id": 3
+    }
+  ],
+  "hotels": [
+    {
+      "cityName": "Chennai",
+      "hotels": [
+        {
+          "resultID": "MzMyNTY3NzMyMDM6MzQ2NTA2OTQ4NTI3NQ--",
+          "hwRefNumber": "6995546509",
+          "tripTotal": 24.720001,
+          "opacity": "RETAIL",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "BC",
+              "name": "Business center",
+              "description": "Guests have access to business equipment and services; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CI",
+              "name": "Free internet",
+              "description": "Property offers free internet access in all rooms",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "FP",
+              "name": "Free parking",
+              "description": "Property offers complimentary parking for passenger vehicles.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "AS",
+              "name": "Airport shuttle",
+              "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CB",
+              "name": "Free breakfast",
+              "description": "Rates include continental or full breakfast.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 6.342556708947252,
+          "distanceInfo": "6.3 mi",
+          "exactDistanceToHotel": 6.3,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 22.51,
+            "strikeThruPrice": 0,
+            "displayPriceType": 0,
+            "displayPrice": 22.51,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "",
+            "percentage": null
+          },
+          "starRating": 3,
+          "bestValue": 1.1767956,
+          "solutionName": "Balaji Residency",
+          "crsNumberOfRoomsLeft": 2,
+          "rateType": "REGULAR_RETAIL_RATE",
+          "selectedResult": false,
+          "hasFreeCancellation": false,
+          "neighborhoodId": 93788,
+          "superSavingsFlag": false,
+          "imageURL": [
+            "https://media.expedia.com/lodging/12000000/11480000/11473200/11473177/d3456f86_t.jpg",
+            "https://media.expedia.com/lodging/12000000/11480000/11473200/11473177/d3456f86_b.jpg"
+          ],
+          "summaryOfCharges": {
+            "total": 24.72,
+            "subTotal": 22.51,
+            "dailyRate": 22.51,
+            "numberOfNights": 1,
+            "extraPersonFees": 0,
+            "taxesAndFees": 2.21,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 24.72,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "participatingInSale": false,
+          "hasBedTypes": false,
+          "hotelLatLong": {
+            "latitude": 13.069479999999999,
+            "longitude": 80.19870999999999
+          },
+          "dealAppeal": 0,
+          "lodgingTypeCode": "\u0000",
+          "partnerHotelId": 11473177,
+          "nightFallDeal": false
+        },
+        {
+          "resultID": "MzMyNTY3NzMyMDM6MzQ2NTA2OTQ4NTI3Mw--",
+          "hwRefNumber": "6816174179",
+          "tripTotal": 81.770004,
+          "opacity": "RETAIL",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "BC",
+              "name": "Business center",
+              "description": "Guests have access to business equipment and services; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HP",
+              "name": "Accessible parking",
+              "description": "Parking available for persons with disabilities",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FP",
+              "name": "Free parking",
+              "description": "Property offers complimentary parking for passenger vehicles.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "AB",
+              "name": "Accessible for visually impaired",
+              "description": "Braille or raised signage",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AD",
+              "name": "Accessible for hearing impaired",
+              "description": "TTY for telephone, visual or flashing fire alarm and vibrating alarm clock",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "EL",
+              "name": "Elevator/lift",
+              "description": "Elevator/lift",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AL",
+              "name": "Accessible path of travel",
+              "description": "36 inch wide flat or ramped paths from the parking lot to the front desk and from the front desk to guest rooms",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AS",
+              "name": "Airport shuttle",
+              "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AW",
+              "name": "Wheelchair accessible",
+              "description": "Wheelchair accessible common areas",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FC",
+              "name": "Fitness center",
+              "description": "Guests have access to exercise equipment; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PO",
+              "name": "Pool(s)",
+              "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "sanitationAmenity": [
+            {
+              "code": "PS",
+              "name": "Shield in Main Areas - Yes",
+              "description": "Shield between guests and staff in main contact areas",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HT",
+              "name": "Linens High Temp - Yes",
+              "description": "Bed sheets and towels are washed at a temperature of at least 60°C/140°F",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WF",
+              "name": "Wrapped Food - Yes",
+              "description": "Individually-wrapped food options are available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "SD",
+              "name": "Social Distancing - Yes",
+              "description": "Social distancing measures are in place",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HZ",
+              "name": "Hand Sanitizer Provided - Yes",
+              "description": "Guests are provided with free hand sanitizer",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "OB",
+              "name": "Brand Sanitize Guide - Yes",
+              "description": "Property follows a brand or regulatory agency's sanitization guidelines",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WP",
+              "name": "Staff Protective Clothes - Yes",
+              "description": "Staff wears personal protective equipment",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "EC",
+              "name": "Access via exterior corridors - Yes",
+              "description": "Access via exterior corridors",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CD",
+              "name": "Disinfectant Used - Yes",
+              "description": "Property is cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AG",
+              "name": "Guest Protective Clothes - Yes",
+              "description": "Protective clothing is available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CL",
+              "name": "Contactless CheckIn - Yes",
+              "description": "Contactless check-in is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "GP",
+              "name": "Turnaround Gap - Yes",
+              "description": "Gap period enforced between guest stays",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AM",
+              "name": "Enhanced Cleaning - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CU",
+              "name": "Contactless CheckOut - Yes",
+              "description": "Contactless check-out is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PC",
+              "name": "Common Surface Disinfect - Yes",
+              "description": "Commonly-touched surfaces are cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TG",
+              "name": "Temp Checks Guests - Yes",
+              "description": "Temperature checks are available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AZ",
+              "name": "Guest Safety - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TP",
+              "name": "Temp Checks Staff - Yes",
+              "description": "Staff temperature checks are conducted regularly",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 6.52590511084358,
+          "distanceInfo": "6.5 mi",
+          "exactDistanceToHotel": 6.5,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 68.43,
+            "strikeThruPrice": 0,
+            "displayPriceType": 0,
+            "displayPrice": 68.43,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "",
+            "percentage": null
+          },
+          "starRating": 5,
+          "bestValue": 1.2529413,
+          "solutionName": "Crowne Plaza Chennai Adyar Park, an IHG Hotel",
+          "crsNumberOfRoomsLeft": 9,
+          "rateType": "REGULAR_RETAIL_RATE",
+          "selectedResult": false,
+          "hasFreeCancellation": false,
+          "neighborhoodId": 93788,
+          "superSavingsFlag": false,
+          "imageURL": [
+            "https://media.expedia.com/lodging/1000000/20000/16600/16559/37f7086e_t.jpg",
+            "https://media.expedia.com/lodging/1000000/20000/16600/16559/37f7086e_b.jpg"
+          ],
+          "summaryOfCharges": {
+            "total": 81.77,
+            "subTotal": 68.43,
+            "dailyRate": 68.43,
+            "numberOfNights": 1,
+            "extraPersonFees": 0,
+            "taxesAndFees": 13.34,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 81.77,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "participatingInSale": false,
+          "hasBedTypes": false,
+          "expediaAverageOverallSatisfaction": 4.2,
+          "expediaPercentRecommended": 83,
+          "expediaReviewCount": 79,
+          "hotelLatLong": {
+            "latitude": 13.029083,
+            "longitude": 80.249918
+          },
+          "dealAppeal": 0,
+          "lodgingTypeCode": "\u0000",
+          "partnerHotelId": 16559,
+          "nightFallDeal": false
+        },
+        {
+          "resultID": "MzMyNTY3NzMyMDM6MzQ2NTA2OTQ4NTI4Mw--",
+          "hwRefNumber": "6601141847",
+          "tripTotal": 87.2,
+          "opacity": "RETAIL",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "BC",
+              "name": "Business center",
+              "description": "Guests have access to business equipment and services; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HP",
+              "name": "Accessible parking",
+              "description": "Parking available for persons with disabilities",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FP",
+              "name": "Free parking",
+              "description": "Property offers complimentary parking for passenger vehicles.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "SR",
+              "name": "Smoke-free rooms",
+              "description": "Guest rooms at this hotel are always smoke free.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CI",
+              "name": "Free internet",
+              "description": "Property offers free internet access in all rooms",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "EL",
+              "name": "Elevator/lift",
+              "description": "Elevator/lift",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AL",
+              "name": "Accessible path of travel",
+              "description": "36 inch wide flat or ramped paths from the parking lot to the front desk and from the front desk to guest rooms",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AS",
+              "name": "Airport shuttle",
+              "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AW",
+              "name": "Wheelchair accessible",
+              "description": "Wheelchair accessible common areas",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PO",
+              "name": "Pool(s)",
+              "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "sanitationAmenity": [
+            {
+              "code": "PS",
+              "name": "Shield in Main Areas - Yes",
+              "description": "Shield between guests and staff in main contact areas",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HT",
+              "name": "Linens High Temp - Yes",
+              "description": "Bed sheets and towels are washed at a temperature of at least 60°C/140°F",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "C2",
+              "name": "Contactless CheckIn - No",
+              "description": "Contactless check-in is not available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "WF",
+              "name": "Wrapped Food - Yes",
+              "description": "Individually-wrapped food options are available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "C3",
+              "name": "Contactless CheckOut - No",
+              "description": "Contactless check-out is not available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "SD",
+              "name": "Social Distancing - Yes",
+              "description": "Social distancing measures are in place",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HZ",
+              "name": "Hand Sanitizer Provided - Yes",
+              "description": "Guests are provided with free hand sanitizer",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "OB",
+              "name": "Brand Sanitize Guide - Yes",
+              "description": "Property follows a brand or regulatory agency's sanitization guidelines",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WP",
+              "name": "Staff Protective Clothes - Yes",
+              "description": "Staff wears personal protective equipment",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CD",
+              "name": "Disinfectant Used - Yes",
+              "description": "Property is cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AG",
+              "name": "Guest Protective Clothes - Yes",
+              "description": "Protective clothing is available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "GP",
+              "name": "Turnaround Gap - Yes",
+              "description": "Gap period enforced between guest stays",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AM",
+              "name": "Enhanced Cleaning - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PC",
+              "name": "Common Surface Disinfect - Yes",
+              "description": "Commonly-touched surfaces are cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TG",
+              "name": "Temp Checks Guests - Yes",
+              "description": "Temperature checks are available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AZ",
+              "name": "Guest Safety - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TP",
+              "name": "Temp Checks Staff - Yes",
+              "description": "Staff temperature checks are conducted regularly",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 6.925063449965246,
+          "distanceInfo": "6.9 mi",
+          "exactDistanceToHotel": 6.9,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 79.09,
+            "strikeThruPrice": 0,
+            "displayPriceType": 0,
+            "displayPrice": 79.09,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "",
+            "percentage": null
+          },
+          "starRating": 5,
+          "bestValue": 1.4689655,
+          "solutionName": "Hyatt Regency Chennai",
+          "crsNumberOfRoomsLeft": 51,
+          "rateType": "REGULAR_RETAIL_RATE",
+          "selectedResult": false,
+          "hasFreeCancellation": true,
+          "freeCancellationTimeStamp": "2023-04-06T11:29:00",
+          "neighborhoodId": 93788,
+          "superSavingsFlag": false,
+          "imageURL": [
+            "https://media.expedia.com/lodging/4000000/3920000/3914100/3914095/f5654748_t.jpg",
+            "https://media.expedia.com/lodging/4000000/3920000/3914100/3914095/f5654748_b.jpg"
+          ],
+          "summaryOfCharges": {
+            "total": 87.2,
+            "subTotal": 79.09,
+            "dailyRate": 79.09,
+            "numberOfNights": 1,
+            "extraPersonFees": 0,
+            "taxesAndFees": 8.11,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 87.2,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "participatingInSale": false,
+          "hasBedTypes": false,
+          "expediaAverageOverallSatisfaction": 4.1,
+          "expediaPercentRecommended": 85,
+          "expediaReviewCount": 306,
+          "hotelLatLong": {
+            "latitude": 13.043089,
+            "longitude": 80.247793
+          },
+          "dealAppeal": 0,
+          "lodgingTypeCode": "\u0000",
+          "partnerHotelId": 3914095,
+          "nightFallDeal": false
+        },
+        {
+          "resultID": "MzMyNTY3NzMyMDM6MzQ2NTA2OTQ4NTI2Mg--",
+          "hwRefNumber": "6609040139",
+          "tripTotal": 88.67,
+          "opacity": "RETAIL",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "BC",
+              "name": "Business center",
+              "description": "Guests have access to business equipment and services; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HP",
+              "name": "Accessible parking",
+              "description": "Parking available for persons with disabilities",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FP",
+              "name": "Free parking",
+              "description": "Property offers complimentary parking for passenger vehicles.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "SR",
+              "name": "Smoke-free rooms",
+              "description": "Guest rooms at this hotel are always smoke free.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AB",
+              "name": "Accessible for visually impaired",
+              "description": "Braille or raised signage",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CI",
+              "name": "Free internet",
+              "description": "Property offers free internet access in all rooms",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "EL",
+              "name": "Elevator/lift",
+              "description": "Elevator/lift",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AL",
+              "name": "Accessible path of travel",
+              "description": "36 inch wide flat or ramped paths from the parking lot to the front desk and from the front desk to guest rooms",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AS",
+              "name": "Airport shuttle",
+              "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AW",
+              "name": "Wheelchair accessible",
+              "description": "Wheelchair accessible common areas",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PO",
+              "name": "Pool(s)",
+              "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "sanitationAmenity": [
+            {
+              "code": "PS",
+              "name": "Shield in Main Areas - Yes",
+              "description": "Shield between guests and staff in main contact areas",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HT",
+              "name": "Linens High Temp - Yes",
+              "description": "Bed sheets and towels are washed at a temperature of at least 60°C/140°F",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WF",
+              "name": "Wrapped Food - Yes",
+              "description": "Individually-wrapped food options are available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "A1",
+              "name": "Guest Protective Clothes - No",
+              "description": "Protective clothing is not available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "SD",
+              "name": "Social Distancing - Yes",
+              "description": "Social distancing measures are in place",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HZ",
+              "name": "Hand Sanitizer Provided - Yes",
+              "description": "Guests are provided with free hand sanitizer",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WP",
+              "name": "Staff Protective Clothes - Yes",
+              "description": "Staff wears personal protective equipment",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CD",
+              "name": "Disinfectant Used - Yes",
+              "description": "Property is cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CL",
+              "name": "Contactless CheckIn - Yes",
+              "description": "Contactless check-in is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "GP",
+              "name": "Turnaround Gap - Yes",
+              "description": "Gap period enforced between guest stays",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AM",
+              "name": "Enhanced Cleaning - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CU",
+              "name": "Contactless CheckOut - Yes",
+              "description": "Contactless check-out is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PC",
+              "name": "Common Surface Disinfect - Yes",
+              "description": "Commonly-touched surfaces are cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TG",
+              "name": "Temp Checks Guests - Yes",
+              "description": "Temperature checks are available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AZ",
+              "name": "Guest Safety - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TP",
+              "name": "Temp Checks Staff - Yes",
+              "description": "Staff temperature checks are conducted regularly",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 6.356930596286415,
+          "distanceInfo": "6.3 mi",
+          "exactDistanceToHotel": 6.4,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 79.07,
+            "strikeThruPrice": 0,
+            "displayPriceType": 0,
+            "displayPrice": 79.07,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "",
+            "percentage": null
+          },
+          "starRating": 4.5,
+          "bestValue": 1.8849556,
+          "solutionName": "The Raintree Hotel, Anna Salai",
+          "crsNumberOfRoomsLeft": 4,
+          "rateType": "REGULAR_RETAIL_RATE",
+          "selectedResult": false,
+          "hasFreeCancellation": true,
+          "freeCancellationTimeStamp": "2023-04-05T23:29:00",
+          "neighborhoodId": 93788,
+          "superSavingsFlag": false,
+          "imageURL": [
+            "https://media.expedia.com/lodging/4000000/3870000/3860400/3860321/77dfc145_t.jpg",
+            "https://media.expedia.com/lodging/4000000/3870000/3860400/3860321/77dfc145_b.jpg"
+          ],
+          "summaryOfCharges": {
+            "total": 88.67,
+            "subTotal": 79.07,
+            "dailyRate": 79.07,
+            "numberOfNights": 1,
+            "extraPersonFees": 0,
+            "taxesAndFees": 9.6,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 88.67,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "participatingInSale": false,
+          "hasBedTypes": false,
+          "expediaAverageOverallSatisfaction": 4.4,
+          "expediaPercentRecommended": 90,
+          "expediaReviewCount": 570,
+          "hotelLatLong": {
+            "latitude": 13.033719999999999,
+            "longitude": 80.24417
+          },
+          "dealAppeal": 0,
+          "lodgingTypeCode": "\u0000",
+          "partnerHotelId": 3860321,
+          "nightFallDeal": false
+        },
+        {
+          "resultID": "MzMyNTY3NzMyMDM6MzQ2NTA2OTQ4NTMwMw--",
+          "hwRefNumber": "6306760063",
+          "tripTotal": 126.34,
+          "opacity": "RETAIL",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "BC",
+              "name": "Business center",
+              "description": "Guests have access to business equipment and services; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HP",
+              "name": "Accessible parking",
+              "description": "Parking available for persons with disabilities",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FP",
+              "name": "Free parking",
+              "description": "Property offers complimentary parking for passenger vehicles.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "CI",
+              "name": "Free internet",
+              "description": "Property offers free internet access in all rooms",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "EL",
+              "name": "Elevator/lift",
+              "description": "Elevator/lift",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AL",
+              "name": "Accessible path of travel",
+              "description": "36 inch wide flat or ramped paths from the parking lot to the front desk and from the front desk to guest rooms",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AS",
+              "name": "Airport shuttle",
+              "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PE",
+              "name": "Pet friendly",
+              "description": "Pet friendly - terms apply",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AW",
+              "name": "Wheelchair accessible",
+              "description": "Wheelchair accessible common areas",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FC",
+              "name": "Fitness center",
+              "description": "Guests have access to exercise equipment; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PO",
+              "name": "Pool(s)",
+              "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "sanitationAmenity": [
+            {
+              "code": "PS",
+              "name": "Shield in Main Areas - Yes",
+              "description": "Shield between guests and staff in main contact areas",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "G1",
+              "name": "Turnaround Gap - No",
+              "description": "No gap period between guest stays",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "HT",
+              "name": "Linens High Temp - Yes",
+              "description": "Bed sheets and towels are washed at a temperature of at least 60°C/140°F",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WF",
+              "name": "Wrapped Food - Yes",
+              "description": "Individually-wrapped food options are available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "SD",
+              "name": "Social Distancing - Yes",
+              "description": "Social distancing measures are in place",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HZ",
+              "name": "Hand Sanitizer Provided - Yes",
+              "description": "Guests are provided with free hand sanitizer",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "OB",
+              "name": "Brand Sanitize Guide - Yes",
+              "description": "Property follows a brand or regulatory agency's sanitization guidelines",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WP",
+              "name": "Staff Protective Clothes - Yes",
+              "description": "Staff wears personal protective equipment",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CD",
+              "name": "Disinfectant Used - Yes",
+              "description": "Property is cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AG",
+              "name": "Guest Protective Clothes - Yes",
+              "description": "Protective clothing is available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CL",
+              "name": "Contactless CheckIn - Yes",
+              "description": "Contactless check-in is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AM",
+              "name": "Enhanced Cleaning - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CU",
+              "name": "Contactless CheckOut - Yes",
+              "description": "Contactless check-out is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PC",
+              "name": "Common Surface Disinfect - Yes",
+              "description": "Commonly-touched surfaces are cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TG",
+              "name": "Temp Checks Guests - Yes",
+              "description": "Temperature checks are available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AZ",
+              "name": "Guest Safety - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TP",
+              "name": "Temp Checks Staff - Yes",
+              "description": "Staff temperature checks are conducted regularly",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 4.347348578192157,
+          "distanceInfo": "4.3 mi",
+          "exactDistanceToHotel": 4.3,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 109.49,
+            "strikeThruPrice": 0,
+            "displayPriceType": 0,
+            "displayPrice": 109.49,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "",
+            "percentage": null
+          },
+          "starRating": 5,
+          "bestValue": 6.8709674,
+          "solutionName": "Park Hyatt Chennai",
+          "crsNumberOfRoomsLeft": 30,
+          "rateType": "REGULAR_RETAIL_RATE",
+          "selectedResult": false,
+          "hasFreeCancellation": true,
+          "freeCancellationTimeStamp": "2023-04-07T11:29:00",
+          "neighborhoodId": 93788,
+          "superSavingsFlag": false,
+          "imageURL": [
+            "https://media.expedia.com/lodging/6000000/5100000/5098500/5098424/7fe49cfc_t.jpg",
+            "https://media.expedia.com/lodging/6000000/5100000/5098500/5098424/7fe49cfc_b.jpg"
+          ],
+          "summaryOfCharges": {
+            "total": 126.34,
+            "subTotal": 109.49,
+            "dailyRate": 109.49,
+            "numberOfNights": 1,
+            "extraPersonFees": 0,
+            "taxesAndFees": 16.85,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 126.34,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "participatingInSale": false,
+          "hasBedTypes": false,
+          "expediaAverageOverallSatisfaction": 4.6,
+          "expediaPercentRecommended": 91,
+          "expediaReviewCount": 284,
+          "hotelLatLong": {
+            "latitude": 13.0107,
+            "longitude": 80.22322
+          },
+          "dealAppeal": 0,
+          "lodgingTypeCode": "\u0000",
+          "partnerHotelId": 5098424,
+          "nightFallDeal": false
+        }
+      ]
+    },
+    {
+      "cityName": "Goa",
+      "hotels": [
+        {
+          "resultID": "MzMyNTY4MTAxMTg6MzQ2NTA3Mjc1OTI2Nw--",
+          "hwRefNumber": "6393743441",
+          "tripTotal": 133.6,
+          "opacity": "RETAIL",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "BC",
+              "name": "Business center",
+              "description": "Guests have access to business equipment and services; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FP",
+              "name": "Free parking",
+              "description": "Property offers complimentary parking for passenger vehicles.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "SR",
+              "name": "Smoke-free rooms",
+              "description": "Guest rooms at this hotel are always smoke free.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CI",
+              "name": "Free internet",
+              "description": "Property offers free internet access in all rooms",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "EL",
+              "name": "Elevator/lift",
+              "description": "Elevator/lift",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AS",
+              "name": "Airport shuttle",
+              "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "sanitationAmenity": [
+            {
+              "code": "G1",
+              "name": "Turnaround Gap - No",
+              "description": "No gap period between guest stays",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "C2",
+              "name": "Contactless CheckIn - No",
+              "description": "Contactless check-in is not available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "A1",
+              "name": "Guest Protective Clothes - No",
+              "description": "Protective clothing is not available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "C3",
+              "name": "Contactless CheckOut - No",
+              "description": "Contactless check-out is not available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "SD",
+              "name": "Social Distancing - Yes",
+              "description": "Social distancing measures are in place",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HZ",
+              "name": "Hand Sanitizer Provided - Yes",
+              "description": "Guests are provided with free hand sanitizer",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WP",
+              "name": "Staff Protective Clothes - Yes",
+              "description": "Staff wears personal protective equipment",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CD",
+              "name": "Disinfectant Used - Yes",
+              "description": "Property is cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "P1",
+              "name": "Shield in Main Areas - No",
+              "description": "No shield between guests and staff in main contact areas",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "P2",
+              "name": "Common Surface Disinfect - No",
+              "description": "Commonly-touched surfaces are not cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "H2",
+              "name": "Linens High Temp - No",
+              "description": "Bed sheets and towels are not washed at a temperature of at least 60°C/140°F",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "AM",
+              "name": "Enhanced Cleaning - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TG",
+              "name": "Temp Checks Guests - Yes",
+              "description": "Temperature checks are available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AZ",
+              "name": "Guest Safety - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "W2",
+              "name": "Wrapped Food - No",
+              "description": "Individually-wrapped food options are not available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "TP",
+              "name": "Temp Checks Staff - Yes",
+              "description": "Staff temperature checks are conducted regularly",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 6.769165186171401,
+          "distanceInfo": "6.7 mi",
+          "exactDistanceToHotel": 6.8,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 60.82,
+            "strikeThruPrice": 0,
+            "displayPriceType": 0,
+            "displayPrice": 60.82,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "",
+            "percentage": null
+          },
+          "starRating": 4,
+          "bestValue": 1.1542857,
+          "solutionName": "Varanda Do Mar",
+          "crsNumberOfRoomsLeft": 4,
+          "rateType": "REGULAR_RETAIL_RATE",
+          "selectedResult": false,
+          "hasFreeCancellation": true,
+          "freeCancellationTimeStamp": "2023-04-19T23:30:00",
+          "neighborhoodId": 93818,
+          "superSavingsFlag": false,
+          "imageURL": [
+            "https://media.expedia.com/lodging/9000000/8740000/8734100/8734065/48c7fa00_t.jpg",
+            "https://media.expedia.com/lodging/9000000/8740000/8734100/8734065/48c7fa00_b.jpg"
+          ],
+          "summaryOfCharges": {
+            "total": 133.6,
+            "subTotal": 121.63,
+            "dailyRate": 60.82,
+            "numberOfNights": 2,
+            "extraPersonFees": 0,
+            "taxesAndFees": 11.97,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 133.6,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "participatingInSale": false,
+          "hasBedTypes": false,
+          "expediaAverageOverallSatisfaction": 4.2,
+          "expediaPercentRecommended": 94,
+          "expediaReviewCount": 65,
+          "hotelLatLong": {
+            "latitude": 15.47691,
+            "longitude": 73.80921
+          },
+          "dealAppeal": 0,
+          "lodgingTypeCode": "\u0000",
+          "partnerHotelId": 8734065,
+          "nightFallDeal": false
+        },
+        {
+          "resultID": "MzMyNTY4MTAxMTg6MzQ2NTA3MjY1Njk1MA--",
+          "hwRefNumber": "5104250900",
+          "tripTotal": 95.80823,
+          "opacity": "FULLY_OPAQUE",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "FP",
+              "name": "Free parking",
+              "description": "Property offers complimentary parking for passenger vehicles.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "CI",
+              "name": "Free internet",
+              "description": "Property offers free internet access in all rooms",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "BA",
+              "name": "Near beach",
+              "description": "Property is located within easy walking distance of a beach.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AS",
+              "name": "Airport shuttle",
+              "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PO",
+              "name": "Pool(s)",
+              "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "LF",
+              "name": "Self-service laundry",
+              "description": "Guests have access to a coin-operated washer and dryer.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AR",
+              "name": "In-room accessibility",
+              "description": "Accessible path from the room entrance to the window, the bed and the bathroom; accessible hardware and minimal resistance to open the door; accessible temperature controls and window coverings",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AC",
+              "name": "Air conditioning",
+              "description": "Condominium is equipped with air conditioning.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "sanitationAmenity": [
+            {
+              "code": "AM",
+              "name": "Enhanced Cleaning - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AZ",
+              "name": "Guest Safety - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CD",
+              "name": "Disinfectant Used - Yes",
+              "description": "Property is cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "SD",
+              "name": "Social Distancing - Yes",
+              "description": "Social distancing measures are in place",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HZ",
+              "name": "Hand Sanitizer Provided - Yes",
+              "description": "Guests are provided with free hand sanitizer",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WP",
+              "name": "Staff Protective Clothes - Yes",
+              "description": "Staff wears personal protective equipment",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CL",
+              "name": "Contactless CheckIn - Yes",
+              "description": "Contactless check-in is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CU",
+              "name": "Contactless CheckOut - Yes",
+              "description": "Contactless check-out is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "GP",
+              "name": "Turnaround Gap - Yes",
+              "description": "Gap period enforced between guest stays",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PS",
+              "name": "Shield in Main Areas - Yes",
+              "description": "Shield between guests and staff in main contact areas",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WF",
+              "name": "Wrapped Food - Yes",
+              "description": "Individually-wrapped food options are available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PC",
+              "name": "Common Surface Disinfect - Yes",
+              "description": "Commonly-touched surfaces are cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HT",
+              "name": "Linens High Temp - Yes",
+              "description": "Bed sheets and towels are washed at a temperature of at least 60°C/140°F",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TP",
+              "name": "Temp Checks Staff - Yes",
+              "description": "Staff temperature checks are conducted regularly",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TG",
+              "name": "Temp Checks Guests - Yes",
+              "description": "Temperature checks are available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "A1",
+              "name": "Guest Protective Clothes - No",
+              "description": "Protective clothing is not available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 8.261215309288561,
+          "distanceInfo": "0.5 - 18.7 mi",
+          "exactDistanceToHotel": 9.1,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 39,
+            "strikeThruPrice": 50.78,
+            "displayPriceType": 0,
+            "displayPrice": 39,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "Savings compared to leading retail travel sites",
+            "percentage": 23
+          },
+          "starRating": 3,
+          "bestValue": 1.1609195,
+          "solutionName": "3-star Hotel in Mormugao - Salcete area",
+          "crsNumberOfRoomsLeft": 20,
+          "rateType": "REGULAR_OPAQUE_RATE",
+          "selectedResult": false,
+          "averagePercentageRecommend": 55,
+          "neighborhoodId": 94285,
+          "superSavingsFlag": false,
+          "levelOfOpacity": 0,
+          "starRatingHotels": {
+            "sampleHotelChain": [
+              "DoubleTree by Hilton",
+              "Embassy Suites Hotels",
+              "Crowne Plaza Hotels & Resorts",
+              "Sheraton Hotels & Resorts",
+              "and other brand-name and independent hotels"
+            ],
+            "imageURL": [
+              "https://media.expedia.com/lodging/12000000/11480000/11473200/11473177/d3456f86_t.jpg",
+              "https://media.expedia.com/lodging/12000000/11480000/11473200/11473177/d3456f86_b.jpg"
+            ]
+          },
+          "summaryOfCharges": {
+            "total": 95.81,
+            "subTotal": 78,
+            "dailyRate": 39,
+            "numberOfNights": 2,
+            "extraPersonFees": 0,
+            "taxesAndFees": 17.81,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 95.81,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "totalReviews": 5,
+          "participatingInSale": false,
+          "hasBedTypes": true,
+          "averageOverallSatisfaction": 3.5,
+          "expediaAverageOverallSatisfaction": 3.1,
+          "expediaPercentRecommended": 50,
+          "expediaReviewCount": 26,
+          "features": {
+            "amazingDeal": false,
+            "superAmazingDeal": false,
+            "hasGuaranteedChain": true,
+            "isHotelRevealEligible": true
+          },
+          "comparable": {
+            "hotelChainIds": [
+              1,
+              2,
+              33,
+              44
+            ]
+          },
+          "hotelReviewVibes": [],
+          "lodgingTypeCode": "H",
+          "partnerHotelId": 0,
+          "nightFallDeal": false
+        },
+        {
+          "resultID": "MzMyNTY4MTAxMTg6MzQ2NTA3Mjc1OTAxMA--",
+          "hwRefNumber": "6054485963",
+          "tripTotal": 131.56,
+          "opacity": "FULLY_OPAQUE",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "CI",
+              "name": "Free internet",
+              "description": "Property offers free internet access in all rooms",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "BA",
+              "name": "Near beach",
+              "description": "Property is located within easy walking distance of a beach.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "OF",
+              "name": "Oceanfront hotel",
+              "description": "Property is located along the ocean, but not directly on a beach. For example, the hotel may be situated on a bluff along the coastline.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "SR",
+              "name": "Smoke-free rooms",
+              "description": "Guest rooms at this hotel are always smoke free.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FC",
+              "name": "Fitness center",
+              "description": "Guests have access to exercise equipment; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PO",
+              "name": "Pool(s)",
+              "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "BC",
+              "name": "Business center",
+              "description": "Guests have access to business equipment and services; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "LF",
+              "name": "Self-service laundry",
+              "description": "Guests have access to a coin-operated washer and dryer.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "sanitationAmenity": [
+            {
+              "code": "AM",
+              "name": "Enhanced Cleaning - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AZ",
+              "name": "Guest Safety - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CD",
+              "name": "Disinfectant Used - Yes",
+              "description": "Property is cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "SD",
+              "name": "Social Distancing - Yes",
+              "description": "Social distancing measures are in place",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HZ",
+              "name": "Hand Sanitizer Provided - Yes",
+              "description": "Guests are provided with free hand sanitizer",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WP",
+              "name": "Staff Protective Clothes - Yes",
+              "description": "Staff wears personal protective equipment",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CL",
+              "name": "Contactless CheckIn - Yes",
+              "description": "Contactless check-in is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CU",
+              "name": "Contactless CheckOut - Yes",
+              "description": "Contactless check-out is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "GP",
+              "name": "Turnaround Gap - Yes",
+              "description": "Gap period enforced between guest stays",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PS",
+              "name": "Shield in Main Areas - Yes",
+              "description": "Shield between guests and staff in main contact areas",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WF",
+              "name": "Wrapped Food - Yes",
+              "description": "Individually-wrapped food options are available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AG",
+              "name": "Guest Protective Clothes - Yes",
+              "description": "Protective clothing is available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PC",
+              "name": "Common Surface Disinfect - Yes",
+              "description": "Commonly-touched surfaces are cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HT",
+              "name": "Linens High Temp - Yes",
+              "description": "Bed sheets and towels are washed at a temperature of at least 60°C/140°F",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TP",
+              "name": "Temp Checks Staff - Yes",
+              "description": "Staff temperature checks are conducted regularly",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TG",
+              "name": "Temp Checks Guests - Yes",
+              "description": "Temperature checks are available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 6.15457091772587,
+          "distanceInfo": "4.5 - 8.2 mi",
+          "exactDistanceToHotel": 5.5,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 54,
+            "strikeThruPrice": 62.86,
+            "displayPriceType": 0,
+            "displayPrice": 54,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "Savings compared to leading retail travel sites",
+            "percentage": 14
+          },
+          "starRating": 3.5,
+          "bestValue": 1.1676301,
+          "solutionName": "3.5-star Hotel in Panaji area",
+          "crsNumberOfRoomsLeft": 10,
+          "rateType": "REGULAR_OPAQUE_RATE",
+          "selectedResult": false,
+          "averagePercentageRecommend": 75,
+          "neighborhoodId": 93818,
+          "superSavingsFlag": false,
+          "levelOfOpacity": 0,
+          "starRatingHotels": {
+            "sampleHotelChain": [
+              "Hilton Hotels & Resorts",
+              "DoubleTree by Hilton",
+              "Hyatt Hotels & Resorts",
+              "Embassy Suites Hotels",
+              "and other brand-name and independent hotels"
+            ],
+            "imageURL": [
+              "https://media.expedia.com/lodging/12000000/11480000/11473200/11473177/d3456f86_t.jpg",
+              "https://media.expedia.com/lodging/12000000/11480000/11473200/11473177/d3456f86_b.jpg"
+            ]
+          },
+          "summaryOfCharges": {
+            "total": 131.56,
+            "subTotal": 108,
+            "dailyRate": 54,
+            "numberOfNights": 2,
+            "extraPersonFees": 0,
+            "taxesAndFees": 23.56,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 131.56,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "totalReviews": 5,
+          "participatingInSale": false,
+          "hasBedTypes": true,
+          "averageOverallSatisfaction": 3.5,
+          "expediaAverageOverallSatisfaction": 3.7,
+          "expediaPercentRecommended": 71,
+          "expediaReviewCount": 39,
+          "features": {
+            "amazingDeal": false,
+            "superAmazingDeal": false,
+            "hasGuaranteedChain": false,
+            "isHotelRevealEligible": true
+          },
+          "comparable": {
+            "hotelChainIds": [
+              1,
+              2,
+              33,
+              44
+            ]
+          },
+          "hotelReviewVibes": [
+            "Unique"
+          ],
+          "lodgingTypeCode": "H",
+          "partnerHotelId": 0,
+          "nightFallDeal": false
+        },
+        {
+          "resultID": "MzMyNTY4MTAxMTg6MzQ2NTA3MjY1Njk5OQ--",
+          "hwRefNumber": "6929135885",
+          "tripTotal": 214.31133,
+          "opacity": "FULLY_OPAQUE",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "FP",
+              "name": "Free parking",
+              "description": "Property offers complimentary parking for passenger vehicles.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "CI",
+              "name": "Free internet",
+              "description": "Property offers free internet access in all rooms",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "BA",
+              "name": "Near beach",
+              "description": "Property is located within easy walking distance of a beach.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CA",
+              "name": "Casino",
+              "description": "Property offers a full-service casino accessible from the lobby.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AS",
+              "name": "Airport shuttle",
+              "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FC",
+              "name": "Fitness center",
+              "description": "Guests have access to exercise equipment; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PO",
+              "name": "Pool(s)",
+              "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "BC",
+              "name": "Business center",
+              "description": "Guests have access to business equipment and services; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "sanitationAmenity": [
+            {
+              "code": "AM",
+              "name": "Enhanced Cleaning - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AZ",
+              "name": "Guest Safety - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CD",
+              "name": "Disinfectant Used - Yes",
+              "description": "Property is cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "SD",
+              "name": "Social Distancing - Yes",
+              "description": "Social distancing measures are in place",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HZ",
+              "name": "Hand Sanitizer Provided - Yes",
+              "description": "Guests are provided with free hand sanitizer",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WP",
+              "name": "Staff Protective Clothes - Yes",
+              "description": "Staff wears personal protective equipment",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AG",
+              "name": "Guest Protective Clothes - Yes",
+              "description": "Protective clothing is available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HT",
+              "name": "Linens High Temp - Yes",
+              "description": "Bed sheets and towels are washed at a temperature of at least 60°C/140°F",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TP",
+              "name": "Temp Checks Staff - Yes",
+              "description": "Staff temperature checks are conducted regularly",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TG",
+              "name": "Temp Checks Guests - Yes",
+              "description": "Temperature checks are available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "C2",
+              "name": "Contactless CheckIn - No",
+              "description": "Contactless check-in is not available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "C3",
+              "name": "Contactless CheckOut - No",
+              "description": "Contactless check-out is not available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "G1",
+              "name": "Turnaround Gap - No",
+              "description": "No gap period between guest stays",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "P1",
+              "name": "Shield in Main Areas - No",
+              "description": "No shield between guests and staff in main contact areas",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "W2",
+              "name": "Wrapped Food - No",
+              "description": "Individually-wrapped food options are not available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            },
+            {
+              "code": "P2",
+              "name": "Common Surface Disinfect - No",
+              "description": "Commonly-touched surfaces are not cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": true
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 6.15457091772587,
+          "distanceInfo": "4.5 - 8.2 mi",
+          "exactDistanceToHotel": 5.4,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 85,
+            "strikeThruPrice": 105.45,
+            "displayPriceType": 0,
+            "displayPrice": 85,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "Savings compared to leading retail travel sites",
+            "percentage": 19
+          },
+          "starRating": 4.5,
+          "bestValue": 1.1952662,
+          "solutionName": "4.5-star Hotel in Panaji area",
+          "crsNumberOfRoomsLeft": 1,
+          "rateType": "REGULAR_OPAQUE_RATE",
+          "selectedResult": false,
+          "averagePercentageRecommend": 40,
+          "neighborhoodId": 93818,
+          "superSavingsFlag": false,
+          "levelOfOpacity": 0,
+          "starRatingHotels": {
+            "sampleHotelChain": [
+              "The Luxury Collection Hotels & Resorts",
+              "Le Meridien Hotels & Resorts",
+              "Sofitel Hotels",
+              "Intercontinental Hotels & Resorts",
+              "and other brand-name and independent hotels"
+            ],
+            "imageURL": [
+              "https://media.expedia.com/lodging/12000000/11480000/11473200/11473177/d3456f86_t.jpg",
+              "https://media.expedia.com/lodging/12000000/11480000/11473200/11473177/d3456f86_b.jpg"
+            ]
+          },
+          "summaryOfCharges": {
+            "total": 214.31,
+            "subTotal": 170,
+            "dailyRate": 85,
+            "numberOfNights": 2,
+            "extraPersonFees": 0,
+            "taxesAndFees": 44.31,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 214.31,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "totalReviews": 5,
+          "participatingInSale": false,
+          "hasBedTypes": true,
+          "averageOverallSatisfaction": 2.5,
+          "expediaAverageOverallSatisfaction": 2.7,
+          "expediaPercentRecommended": 0,
+          "expediaReviewCount": 6,
+          "features": {
+            "amazingDeal": false,
+            "superAmazingDeal": false,
+            "hasGuaranteedChain": false,
+            "isHotelRevealEligible": true
+          },
+          "comparable": {
+            "hotelChainIds": [
+              1,
+              2,
+              33,
+              44
+            ]
+          },
+          "hotelReviewVibes": [
+            "Luxury"
+          ],
+          "lodgingTypeCode": "H",
+          "partnerHotelId": 0,
+          "nightFallDeal": false
+        },
+        {
+          "resultID": "MzMyNTY4MTAxMTg6MzQ2NTA3MjY1Njg3Nw--",
+          "hwRefNumber": "5613850021",
+          "tripTotal": 78.18,
+          "opacity": "FULLY_OPAQUE",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "FP",
+              "name": "Free parking",
+              "description": "Property offers complimentary parking for passenger vehicles.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "CI",
+              "name": "Free internet",
+              "description": "Property offers free internet access in all rooms",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "BA",
+              "name": "Near beach",
+              "description": "Property is located within easy walking distance of a beach.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AS",
+              "name": "Airport shuttle",
+              "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "SR",
+              "name": "Smoke-free rooms",
+              "description": "Guest rooms at this hotel are always smoke free.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PO",
+              "name": "Pool(s)",
+              "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "BC",
+              "name": "Business center",
+              "description": "Guests have access to business equipment and services; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "LF",
+              "name": "Self-service laundry",
+              "description": "Guests have access to a coin-operated washer and dryer.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "sanitationAmenity": [
+            {
+              "code": "AM",
+              "name": "Enhanced Cleaning - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AZ",
+              "name": "Guest Safety - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CD",
+              "name": "Disinfectant Used - Yes",
+              "description": "Property is cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "SD",
+              "name": "Social Distancing - Yes",
+              "description": "Social distancing measures are in place",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HZ",
+              "name": "Hand Sanitizer Provided - Yes",
+              "description": "Guests are provided with free hand sanitizer",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WP",
+              "name": "Staff Protective Clothes - Yes",
+              "description": "Staff wears personal protective equipment",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CL",
+              "name": "Contactless CheckIn - Yes",
+              "description": "Contactless check-in is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CU",
+              "name": "Contactless CheckOut - Yes",
+              "description": "Contactless check-out is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WF",
+              "name": "Wrapped Food - Yes",
+              "description": "Individually-wrapped food options are available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AG",
+              "name": "Guest Protective Clothes - Yes",
+              "description": "Protective clothing is available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PC",
+              "name": "Common Surface Disinfect - Yes",
+              "description": "Commonly-touched surfaces are cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HT",
+              "name": "Linens High Temp - Yes",
+              "description": "Bed sheets and towels are washed at a temperature of at least 60°C/140°F",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TP",
+              "name": "Temp Checks Staff - Yes",
+              "description": "Staff temperature checks are conducted regularly",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TG",
+              "name": "Temp Checks Guests - Yes",
+              "description": "Temperature checks are available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 8.261215309288561,
+          "distanceInfo": "0.5 - 18.7 mi",
+          "exactDistanceToHotel": 8,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 32,
+            "strikeThruPrice": 39.97,
+            "displayPriceType": 0,
+            "displayPrice": 32,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "Savings compared to leading retail travel sites",
+            "percentage": 20
+          },
+          "starRating": 3.5,
+          "bestValue": 1.2095808,
+          "solutionName": "3.5-star Hotel in Mormugao - Salcete area",
+          "crsNumberOfRoomsLeft": 17,
+          "rateType": "REGULAR_OPAQUE_RATE",
+          "selectedResult": false,
+          "averagePercentageRecommend": 95,
+          "neighborhoodId": 94285,
+          "superSavingsFlag": false,
+          "levelOfOpacity": 0,
+          "starRatingHotels": {
+            "sampleHotelChain": [
+              "Hilton Hotels & Resorts",
+              "DoubleTree by Hilton",
+              "Hyatt Hotels & Resorts",
+              "Embassy Suites Hotels",
+              "and other brand-name and independent hotels"
+            ],
+            "imageURL": [
+              "https://media.expedia.com/lodging/12000000/11480000/11473200/11473177/d3456f86_t.jpg",
+              "https://media.expedia.com/lodging/12000000/11480000/11473200/11473177/d3456f86_b.jpg"
+            ]
+          },
+          "summaryOfCharges": {
+            "total": 78.18,
+            "subTotal": 64,
+            "dailyRate": 32,
+            "numberOfNights": 2,
+            "extraPersonFees": 0,
+            "taxesAndFees": 14.18,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 78.18,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "totalReviews": 5,
+          "participatingInSale": false,
+          "hasBedTypes": true,
+          "averageOverallSatisfaction": 3.5,
+          "expediaAverageOverallSatisfaction": 3.8,
+          "expediaPercentRecommended": 100,
+          "expediaReviewCount": 11,
+          "features": {
+            "amazingDeal": false,
+            "superAmazingDeal": false,
+            "hasGuaranteedChain": false,
+            "isHotelRevealEligible": true
+          },
+          "comparable": {
+            "hotelChainIds": [
+              1,
+              2,
+              33,
+              44
+            ]
+          },
+          "hotelReviewVibes": [
+            "Unique"
+          ],
+          "lodgingTypeCode": "H",
+          "partnerHotelId": 0,
+          "nightFallDeal": false
+        },
+        {
+          "resultID": "MzMyNTY4MTAxMTg6MzQ2NTA3Mjc1OTI2MA--",
+          "hwRefNumber": "6556397417",
+          "tripTotal": 257.99,
+          "opacity": "RETAIL",
+          "selected": false,
+          "amenity": [
+            {
+              "code": "BC",
+              "name": "Business center",
+              "description": "Guests have access to business equipment and services; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FP",
+              "name": "Free parking",
+              "description": "Property offers complimentary parking for passenger vehicles.",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "AD",
+              "name": "Accessible for hearing impaired",
+              "description": "TTY for telephone, visual or flashing fire alarm and vibrating alarm clock",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CI",
+              "name": "Free internet",
+              "description": "Property offers free internet access in all rooms",
+              "accessibilityOption": false,
+              "freebie": true,
+              "negative": false
+            },
+            {
+              "code": "EL",
+              "name": "Elevator/lift",
+              "description": "Elevator/lift",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AS",
+              "name": "Airport shuttle",
+              "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "RE",
+              "name": "Restaurant(s)",
+              "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AW",
+              "name": "Wheelchair accessible",
+              "description": "Wheelchair accessible common areas",
+              "accessibilityOption": true,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "FC",
+              "name": "Fitness center",
+              "description": "Guests have access to exercise equipment; an additional charge may apply.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PO",
+              "name": "Pool(s)",
+              "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "sanitationAmenity": [
+            {
+              "code": "PS",
+              "name": "Shield in Main Areas - Yes",
+              "description": "Shield between guests and staff in main contact areas",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HT",
+              "name": "Linens High Temp - Yes",
+              "description": "Bed sheets and towels are washed at a temperature of at least 60°C/140°F",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WF",
+              "name": "Wrapped Food - Yes",
+              "description": "Individually-wrapped food options are available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "SD",
+              "name": "Social Distancing - Yes",
+              "description": "Social distancing measures are in place",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "HZ",
+              "name": "Hand Sanitizer Provided - Yes",
+              "description": "Guests are provided with free hand sanitizer",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "OB",
+              "name": "Brand Sanitize Guide - Yes",
+              "description": "Property follows a brand or regulatory agency's sanitization guidelines",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "WP",
+              "name": "Staff Protective Clothes - Yes",
+              "description": "Staff wears personal protective equipment",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CD",
+              "name": "Disinfectant Used - Yes",
+              "description": "Property is cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AG",
+              "name": "Guest Protective Clothes - Yes",
+              "description": "Protective clothing is available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CL",
+              "name": "Contactless CheckIn - Yes",
+              "description": "Contactless check-in is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "GP",
+              "name": "Turnaround Gap - Yes",
+              "description": "Gap period enforced between guest stays",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AM",
+              "name": "Enhanced Cleaning - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "CU",
+              "name": "Contactless CheckOut - Yes",
+              "description": "Contactless check-out is available",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "PC",
+              "name": "Common Surface Disinfect - Yes",
+              "description": "Commonly-touched surfaces are cleaned with disinfectant",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TG",
+              "name": "Temp Checks Guests - Yes",
+              "description": "Temperature checks are available to guests",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "AZ",
+              "name": "Guest Safety - Yes",
+              "description": "This hotel has implemented new health and safety measures due to COVID-19",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            },
+            {
+              "code": "TP",
+              "name": "Temp Checks Staff - Yes",
+              "description": "Staff temperature checks are conducted regularly",
+              "accessibilityOption": false,
+              "freebie": false,
+              "negative": false
+            }
+          ],
+          "resortFee": false,
+          "distanceFromSearchLocation": 7.742414213553654,
+          "distanceInfo": "7.7 mi",
+          "exactDistanceToHotel": 7.7,
+          "charges": {
+            "localCurrencyCode": "USD",
+            "averagePricePerNight": 112.23,
+            "strikeThruPrice": 0,
+            "displayPriceType": 0,
+            "displayPrice": 112.23,
+            "displayPriceLabel": "",
+            "strikeThruPriceLabel": "",
+            "percentage": null
+          },
+          "starRating": 5,
+          "bestValue": 1.2168674,
+          "solutionName": "Vivanta Goa, Panaji",
+          "crsNumberOfRoomsLeft": 23,
+          "rateType": "REGULAR_RETAIL_RATE",
+          "selectedResult": false,
+          "hasFreeCancellation": true,
+          "freeCancellationTimeStamp": "2023-04-17T01:30:00",
+          "neighborhoodId": 93818,
+          "superSavingsFlag": false,
+          "imageURL": [
+            "https://media.expedia.com/lodging/3000000/2710000/2703400/2703358/00a8ece2_t.jpg",
+            "https://media.expedia.com/lodging/3000000/2710000/2703400/2703358/00a8ece2_b.jpg"
+          ],
+          "summaryOfCharges": {
+            "total": 257.99,
+            "subTotal": 224.46,
+            "dailyRate": 112.23,
+            "numberOfNights": 2,
+            "extraPersonFees": 0,
+            "taxesAndFees": 33.53,
+            "resortFeeTotal": 0,
+            "totalWithResortFee": 257.99,
+            "additionalFeatures": null,
+            "resortFee": 0,
+            "resortFeeType": ""
+          },
+          "participatingInSale": false,
+          "hasBedTypes": false,
+          "expediaAverageOverallSatisfaction": 4.6,
+          "expediaPercentRecommended": 92,
+          "expediaReviewCount": 336,
+          "hotelLatLong": {
+            "latitude": 15.493673,
+            "longitude": 73.81987699999999
+          },
+          "dealAppeal": 0,
+          "lodgingTypeCode": "\u0000",
+          "partnerHotelId": 2703358,
+          "nightFallDeal": false
+        }
+      ]
+    }
+  ],
+  "roomtypes": [
+    {
+      "roomType": "Standard",
+      "url": "https://images.trvl-media.com/lodging/1000000/440000/433500/433419/0613a968.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+      "roomDescription": "Comfort Room, 1 King Bed (with Single Sofabed)",
+      "price": "$150",
+      "amenity": [
+        {
+          "code": "BC",
+          "name": "Business center",
+          "description": "Guests have access to business equipment and services; an additional charge may apply.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "HP",
+          "name": "Accessible parking",
+          "description": "Parking available for persons with disabilities",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "FP",
+          "name": "Free parking",
+          "description": "Property offers complimentary parking for passenger vehicles.",
+          "accessibilityOption": false,
+          "freebie": true,
+          "negative": false
+        },
+        {
+          "code": "AB",
+          "name": "Accessible for visually impaired",
+          "description": "Braille or raised signage",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        }
+      ]
+    },
+    {
+      "roomType": "Deluxe",
+      "url": "https://images.trvl-media.com/lodging/1000000/440000/433500/433419/2712bff8.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+      "roomDescription": "Comfort Room, 1 King Bed (with Single Sofabed)",
+      "price": "$200",
+      "amenity": [
+        {
+          "code": "BC",
+          "name": "Business center",
+          "description": "Guests have access to business equipment and services; an additional charge may apply.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "HP",
+          "name": "Accessible parking",
+          "description": "Parking available for persons with disabilities",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "FP",
+          "name": "Free parking",
+          "description": "Property offers complimentary parking for passenger vehicles.",
+          "accessibilityOption": false,
+          "freebie": true,
+          "negative": false
+        },
+        {
+          "code": "AB",
+          "name": "Accessible for visually impaired",
+          "description": "Braille or raised signage",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AD",
+          "name": "Accessible for hearing impaired",
+          "description": "TTY for telephone, visual or flashing fire alarm and vibrating alarm clock",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "EL",
+          "name": "Elevator/lift",
+          "description": "Elevator/lift",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AL",
+          "name": "Accessible path of travel",
+          "description": "36 inch wide flat or ramped paths from the parking lot to the front desk and from the front desk to guest rooms",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AS",
+          "name": "Airport shuttle",
+          "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "RE",
+          "name": "Restaurant(s)",
+          "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AW",
+          "name": "Wheelchair accessible",
+          "description": "Wheelchair accessible common areas",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "FC",
+          "name": "Fitness center",
+          "description": "Guests have access to exercise equipment; an additional charge may apply.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "PO",
+          "name": "Pool(s)",
+          "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        }
+      ]
+    },
+    {
+      "roomType": "Superior",
+      "url": "https://images.trvl-media.com/lodging/1000000/440000/433500/433419/8c492343.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+      "roomDescription": "Superior Room, Multiple Beds",
+      "price": "$250",
+      "amenity": [
+        {
+          "code": "BC",
+          "name": "Business center",
+          "description": "Guests have access to business equipment and services; an additional charge may apply.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "HP",
+          "name": "Accessible parking",
+          "description": "Parking available for persons with disabilities",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "FP",
+          "name": "Free parking",
+          "description": "Property offers complimentary parking for passenger vehicles.",
+          "accessibilityOption": false,
+          "freebie": true,
+          "negative": false
+        },
+        {
+          "code": "AB",
+          "name": "Accessible for visually impaired",
+          "description": "Braille or raised signage",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AD",
+          "name": "Accessible for hearing impaired",
+          "description": "TTY for telephone, visual or flashing fire alarm and vibrating alarm clock",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "EL",
+          "name": "Elevator/lift",
+          "description": "Elevator/lift",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        }
+      ]
+    },
+    {
+      "roomType": "Standard",
+      "url": "https://images.trvl-media.com/lodging/1000000/440000/433500/433419/2f600aba.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+      "roomDescription": "Standard Room, 1 Twin Bed",
+      "price": "$150",
+      "amenity": [
+        {
+          "code": "BC",
+          "name": "Business center",
+          "description": "Guests have access to business equipment and services; an additional charge may apply.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "HP",
+          "name": "Accessible parking",
+          "description": "Parking available for persons with disabilities",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "FP",
+          "name": "Free parking",
+          "description": "Property offers complimentary parking for passenger vehicles.",
+          "accessibilityOption": false,
+          "freebie": true,
+          "negative": false
+        }
+      ]
+    },
+    {
+      "roomType": "Standard",
+      "url": "https://images.trvl-media.com/lodging/1000000/440000/433500/433419/f680e968.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+      "roomDescription": "Standard Room, 1 Twin Bed (Bed is French Bed)",
+      "price": "$120",
+      "amenity": [
+        {
+          "code": "BC",
+          "name": "Business center",
+          "description": "Guests have access to business equipment and services; an additional charge may apply.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "HP",
+          "name": "Accessible parking",
+          "description": "Parking available for persons with disabilities",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "FP",
+          "name": "Free parking",
+          "description": "Property offers complimentary parking for passenger vehicles.",
+          "accessibilityOption": false,
+          "freebie": true,
+          "negative": false
+        },
+        {
+          "code": "SR",
+          "name": "Smoke-free rooms",
+          "description": "Guest rooms at this hotel are always smoke free.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AB",
+          "name": "Accessible for visually impaired",
+          "description": "Braille or raised signage",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "CI",
+          "name": "Free internet",
+          "description": "Property offers free internet access in all rooms",
+          "accessibilityOption": false,
+          "freebie": true,
+          "negative": false
+        },
+        {
+          "code": "EL",
+          "name": "Elevator/lift",
+          "description": "Elevator/lift",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AL",
+          "name": "Accessible path of travel",
+          "description": "36 inch wide flat or ramped paths from the parking lot to the front desk and from the front desk to guest rooms",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AS",
+          "name": "Airport shuttle",
+          "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "RE",
+          "name": "Restaurant(s)",
+          "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AW",
+          "name": "Wheelchair accessible",
+          "description": "Wheelchair accessible common areas",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "PO",
+          "name": "Pool(s)",
+          "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        }
+      ]
+    },
+    {
+      "roomType": "Deluxe",
+      "url": "https://images.trvl-media.com/lodging/1000000/440000/433500/433419/bbce7738.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
+      "roomDescription": "Deluxe Room, 1 Double Bed (Small double room)",
+      "price": "$100",
+      "amenity": [
+        {
+          "code": "BC",
+          "name": "Business center",
+          "description": "Guests have access to business equipment and services; an additional charge may apply.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "HP",
+          "name": "Accessible parking",
+          "description": "Parking available for persons with disabilities",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "FP",
+          "name": "Free parking",
+          "description": "Property offers complimentary parking for passenger vehicles.",
+          "accessibilityOption": false,
+          "freebie": true,
+          "negative": false
+        },
+        {
+          "code": "SR",
+          "name": "Smoke-free rooms",
+          "description": "Guest rooms at this hotel are always smoke free.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AB",
+          "name": "Accessible for visually impaired",
+          "description": "Braille or raised signage",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "CI",
+          "name": "Free internet",
+          "description": "Property offers free internet access in all rooms",
+          "accessibilityOption": false,
+          "freebie": true,
+          "negative": false
+        },
+        {
+          "code": "EL",
+          "name": "Elevator/lift",
+          "description": "Elevator/lift",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AL",
+          "name": "Accessible path of travel",
+          "description": "36 inch wide flat or ramped paths from the parking lot to the front desk and from the front desk to guest rooms",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AS",
+          "name": "Airport shuttle",
+          "description": "Property offers transportation to and from the airport. Shuttles may run during limited hours or require a reservation; an additional charge may apply.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "RE",
+          "name": "Restaurant(s)",
+          "description": "Property offers at least one restaurant on the premises; hours and days of operation may vary.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "AW",
+          "name": "Wheelchair accessible",
+          "description": "Wheelchair accessible common areas",
+          "accessibilityOption": true,
+          "freebie": false,
+          "negative": false
+        },
+        {
+          "code": "PO",
+          "name": "Pool(s)",
+          "description": "Property offers at least one pool area; hours and dates of operation may be seasonal.",
+          "accessibilityOption": false,
+          "freebie": false,
+          "negative": false
+        }
+      ]
+    }
+  ]
+}

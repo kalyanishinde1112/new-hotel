@@ -1,0 +1,32 @@
+<h1>choose Hotel</h1>
+<div class="contaner">
+
+   <div fxLayout="row" fxLayoutGap="40px">
+ <ng-container *ngFor="let hotels of hotelData">
+  
+     <mat-card class="example-card" *ngFor="let item of hotels.hotels">
+       <mat-card-header>
+         <!-- <div mat-card-avatar class="example-header-image"></div> -->
+         <mat-card-title>{{item.solutionName }}</mat-card-title>
+         <mat-card-subtitle  class="mt-5">Distance From City:- {{item.distanceFromSearchLocation}}km.</mat-card-subtitle>
+       </mat-card-header>
+       <img mat-card-image [src]="item?.imageURL[0]" width="200px" height="150px">
+       <mat-card-content>
+         <h4>Charges for 1 Stay: {{item.charges.displayPrice |currency:'USD'}}</h4>
+         <h2>Rating:- {{item.starRating }}</h2>
+       </mat-card-content>
+       <mat-card-actions>
+         <button mat-button matStepperNext>Rooms Available</button>
+         <button mat-button matStepperNext>Select Hotel</button>
+         
+       </mat-card-actions>
+     </mat-card>
+  
+</ng-container>
+
+</div>
+</div>
+
+<div>
+ <button mat-button matStepperPrevious>Back</button>
+</div>

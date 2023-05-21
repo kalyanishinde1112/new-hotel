@@ -1,0 +1,21 @@
+ <h4>add info</h4>
+ <div class="container">
+ <form [formGroup]="infoForm" (ngSubmit)="addForm()">
+<div class="row">
+
+ <mat-form-field appearance="fill">
+    <mat-label>city name</mat-label>
+    <input matInput formControlName="cityName">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>State</mat-label>
+    <input matInput formControlName="state">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Pin code</mat-label>
+    <input matInput formControlName="pincode">
+  </mat-form-field>
+  <button mat-button type="submit">{{actionBtn}}</button>
+</div>
+</form>
+</div>

@@ -1,0 +1,63 @@
+ 
+ <div class="container mt-5">
+  <div [style.background-color]="color"
+  [style.width.px]="size"
+  [style.height.px]="size"
+  [style.border-radius.px]="size/2"
+  (click)="changeColor()"></div>
+  {{count}}
+</div>
+ 
+<div class="container">
+  
+     
+  <button mat-button (click)="openDialog()">Add records</button> 
+<table class="table table-bordered">
+  <tr>
+    <th>id</th>
+    <th>pincode</th>
+    <th>city name</th>
+    <th>state</th>
+    <th>action</th>
+
+  </tr>
+  <tr *ngFor="let item of hotelData; let i=index"  [ngClass]="{'alternate-row': i%2 === 1}">
+    <td>{{item.id}}</td>
+    <td>{{item.pincode}}</td>
+    <td>{{item.cityName}}</td>
+<td>{{item.state}}</td>
+<td>
+  <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
+  <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons" (click)="editProduct(item)">&#xE254;</i></a>
+  <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons" (click)="deleteCity(item)">&#xE872;</i></a>
+</td>
+
+
+  </tr>
+</table>
+</div>
+ 
+ 
+
+<!-- Modal -->
+<ng-container>
+<div class="modal fade" id="#exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</ng-container>

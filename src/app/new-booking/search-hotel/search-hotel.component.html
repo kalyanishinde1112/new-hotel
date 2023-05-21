@@ -1,0 +1,58 @@
+<h1>Search Hotel</h1>
+<form [formGroup]="searchHotel" (ngSubmit)="saveHotel()"> 
+<div class="container-fluid ">
+
+ <!-- <div fxFlex="100%" fxFlex.xs="100%" fxFlex.sm="100%" fxLayoutGap="16px"  > -->
+ <div fxLayout="row" fxLayoutGap="20px">
+     <div fxFlex="50%">
+       <mat-form-field appearance="fill" class="example-full-width">
+         <mat-label>Select City</mat-label>
+         <mat-select  name="food">
+           <mat-option *ngFor="let option of hotelsData" [value]="option.cityName">
+             {{option.cityName}}
+           </mat-option>
+         </mat-select>
+       </mat-form-field>
+             
+               
+             </div>
+             <div fxFlex="50%">
+               <mat-form-field appearance="fill" class="example-full-width">
+                 <mat-label>Enter a date range</mat-label>
+                 <mat-date-range-input  [rangePicker]="picker">
+                   <input matStartDate formControlName="checkInDate" placeholder="Start date">
+                   <input matEndDate formControlName="checkOutDate" placeholder="End date">
+                 </mat-date-range-input>
+                 <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+                 <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                 <mat-date-range-picker #picker></mat-date-range-picker>
+               
+                 <!-- <mat-error *ngIf="range.controls.start.hasError('matStartDateInvalid')">Invalid start date</mat-error>
+                 <mat-error *ngIf="range.controls.end.hasError('matEndDateInvalid')">Invalid end date</mat-error> -->
+               </mat-form-field>
+       
+       
+       
+</div></div>  
+<!-- </div> -->
+<!-- <div fxFlex="100%" fxFlex.xs="100%" fxFlex.sm="100%" fxLayoutGap="16px" class="text-right"> -->
+ <div fxLayout ="row"  fxLayoutGap="100px">
+   <div fxFlex="50%"> Adult <mat-icon class="mx-5" (click)="adultChange('Increment')">add_circle</mat-icon>{{searchHotel.value.adult}} <mat-icon class="mx-5" (click)="adultChange('Decrement')">do_not_disturb_on</mat-icon></div> 
+    <div fxFlex="50%"> Children <mat-icon class="mx-5" (click)="childrenChange('Increment')">add_circle</mat-icon>{{searchHotel.value.children}} <mat-icon class="mx-5" (click)="childrenChange('Decrement')">do_not_disturb_on</mat-icon></div>
+ </div>
+<!-- </div> -->
+<div fxLayout="row stretch" fxLayoutAlign="center center" fxLayoutGap="100px" class="button-bottom">
+ <!-- <button mat-button type="submit" >Save</button> -->
+ <div fxFlex="20%" fxLayoutGap="20px">
+   <button mat-stroked-button color="accent" type="submit"  >Save</button>
+
+ </div>
+ 
+</div>
+    
+<div>
+ <button mat-button matStepperNext>Next</button>
+</div>
+  
+ </div>
+</form>

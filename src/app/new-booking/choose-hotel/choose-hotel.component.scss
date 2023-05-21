@@ -1,0 +1,14 @@
+.mat-mdc-card-title, .mat-mdc-card-subtitle {
+    display: block;
+    margin: 0;
+    font-size: 20px;
+    line-height: normal;
+    height: 30px;
+}
+.mat-mdc-card-subtitle~.mat-mdc-card-title, .mat-mdc-card-title~.mat-mdc-card-subtitle, .mat-mdc-card-header .mat-mdc-card-header-text .mat-mdc-card-title, .mat-mdc-card-header .mat-mdc-card-header-text .mat-mdc-card-subtitle, .mat-mdc-card-title-group .mat-mdc-card-title, .mat-mdc-card-title-group .mat-mdc-card-subtitle {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: normal;
+    height: 30px;
+}
